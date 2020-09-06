@@ -26,7 +26,6 @@ public class ActionClassTest extends TestBase {
         }
         driver.switchTo().alert().accept();
 
-
     }
 
     @Test
