@@ -6,7 +6,7 @@ import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
 public class FhcTripLogInTest extends TestBase {
-    @Test
+    @Test(groups = {"fhctrip", "login"})
     public void logIn() {
         driver.get("http://fhctrip-qa.com/Account/LogOn?ReturnUrl=%2FAdmin%2FUserAdmin");
         FhcTripLogInPage fhcTripLogInPage = new FhcTripLogInPage(driver);

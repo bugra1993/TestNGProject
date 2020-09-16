@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite- fhctrip tests">
+    <test name="Test - fhctrip-qa tests">
+        <classes>
+            <class name="com.techproed.tests.Example_WebTable"></class>
+            <class name="com.techproed.tests.FhcTripLogInTest"></class>
+            <class name="com.techproed.tests.FhcTripHotelCreateTest"></class>
+        </classes>
+
+
+    </test>
+</suite>

@@ -35,8 +35,6 @@
         </dependency>
 
 
-
-
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
@@ -44,8 +42,11 @@
         </dependency>
 
 
-
-
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>4.0.9</version>
+        </dependency>
 
 
     </dependencies>

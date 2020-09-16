@@ -14,7 +14,7 @@ import javax.swing.plaf.TableHeaderUI;
 public class ActionClassTest extends TestBase {
 
     @Test
-    @Ignore
+
     public void rightClick() {
         driver.get("https://the-internet.herokuapp.com/context_menu");
         WebElement element = driver.findElement(By.id("hot-spot"));
@@ -31,7 +31,7 @@ public class ActionClassTest extends TestBase {
     }
 
     @Test
-    @Ignore
+
     public void hoverOVer() {
         driver.get("https://www.amazon.com/");
         WebElement shipping = driver.findElement(By.className("a-button-input"));

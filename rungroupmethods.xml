@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite - Tests Group">
+    <test name="group 'fhctrip' tests">
+        <groups>
+            <run>
+                <include name="fhctrip"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+</suite>

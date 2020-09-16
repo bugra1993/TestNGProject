@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite- fhctrip methods">
+    <test name="Test - fhctrip-qa methods">
+        <classes>
+            <class name="com.techproed.tests.ActionClassTest">
+                <methods>
+                    <include name="rightClick"></include>
+                    <include name="hoverOver"></include>
+                </methods>
+            </class>
+
+
+            <class name="com.techproed.tests.WebTablesTest">
+                <methods>
+                    <exclude name="allRows"></exclude>
+                    <exclude name="oneRowData"></exclude>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

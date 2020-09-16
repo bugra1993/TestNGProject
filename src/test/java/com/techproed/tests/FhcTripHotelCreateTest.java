@@ -18,7 +18,7 @@ public class FhcTripHotelCreateTest extends TestBase {
         fhcTripLogInPage.password.sendKeys("Man1ager2!" + Keys.ENTER);
     }
 
-    @Test
+    @Test(groups = {"fhctrip", "create hotel"})
     public void createHotel() {
         logIn();
         try {
