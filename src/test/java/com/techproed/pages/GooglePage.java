@@ -1,22 +1,26 @@
 package com.techproed.pages;
 
-import org.openqa.selenium.WebDriver;
+import com.techproed.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class GooglePage {
 
-    WebDriver driver;
 
-    public GooglePage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public GooglePage() {
+
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(name = "q")
     public WebElement searchBox;
-
+    @FindBy(id = "result-stats")
+    public WebElement resultStats;
+    @FindBy(tagName = "a")
+    public List<WebElement> links;
 
 
 }

@@ -8,11 +8,6 @@ public class GoogleTest extends TestBase {
 
     @Test
     public void searchTest() {
-        driver.get("https://www.google.com");
-        GooglePage googlePage = new GooglePage(driver);
-        googlePage.searchBox.sendKeys("kindle");
-        googlePage.searchBox.submit();
-
 
     }
 }

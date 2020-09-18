@@ -3,6 +3,7 @@ package com.techproed.smoketests;
 import com.techproed.pages.GlbSignUpPage;
 import com.techproed.utilities.ConfigurationReader;
 import com.techproed.utilities.Driver;
+import com.techproed.utilities.TestBaseFinal;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;

@@ -30,9 +30,9 @@ public abstract class TestBaseFinal {
         //WE CAN ADD CUSTOM INFO. NOT NECESSARY. JUST TO GIVE MORE INFORMATION TO THE USER OR TEAM
         extentReports.setSystemInfo("Environment", "Environment Name");
         extentReports.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
-        extentReports.setSystemInfo("Automation Engineer", "ENGINEER INFORMATION");
-        extentHtmlReporter.config().setDocumentTitle("FHC Trip Reports");
-        extentHtmlReporter.config().setReportName("FHC Trip Automation Reports");
+        extentReports.setSystemInfo("Automation Engineer", "Enes");
+        extentHtmlReporter.config().setDocumentTitle("Google Search Test");
+        extentHtmlReporter.config().setReportName("Google Search Automation Reports");
     }
 
     @AfterMethod(alwaysRun = true)
